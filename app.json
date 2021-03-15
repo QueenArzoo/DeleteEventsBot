@@ -1,5 +1,5 @@
 {
-  "name": "Delete Events Bot",
+  "name": "Deleter Robot",
   "description": "Telegram bot to delete service messages.",
   "logo": "https://telegra.ph/file/b171755f0b48b67de0e56.jpg",
   "keywords": [
@@ -8,15 +8,15 @@
     "python",
     "pyrogram"
   ],
-  "repository": "https://github.com/MysteryBots/DeleteEventsBot",
-  "website": "https://telegram.dog/MysteryBots",
-  "success_url": "www.mysteryxd.ml",
+  "repository": "https://github.com/QueenArzoo/DeleterRobot",
+  "website": "https://telegram.dog/LaylaList",
+  "success_url": "www.LaylaList.ml",
   "env": {
     "API_ID": {
-      "description": "Get this value from my.telegram.org or @TgOrgBot"
+      "description": "Get this value from my.telegram.org or @APIinfoBot"
     },
     "API_HASH": {
-      "description": "Get this value from my.telegram.org or @TgOrgBot"
+      "description": "Get this value from my.telegram.org or @APIinfoBot"
     },
     "BOT_TOKEN": {
       "description": "Obtain a Telegram bot token by contacting @BotFather"
