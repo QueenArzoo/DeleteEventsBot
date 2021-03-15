@@ -19,10 +19,10 @@ class Data:
             print("Quitting the bot")
             raise SystemExit
     else:
-        START += f"\n\nBy @MysteryBots ♥"
+        START += f"\n\nBy @HEROGAMERS1 ♥"
 
     # About Message
-    ABOUT = "**About This Bot** \n\nThis is an open source delete events bot by @MysteryBots \n\nSource : [Click Here](https://github.com/MysteryBots/DeleteEventsBot) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Mყʂƚҽɾყ Bσყ](https://t.me/MysteryxD)"
+    ABOUT = "**About This Bot** \n\nThis is an open source delete events bot by @HEROGAMERS1 \n\nSource : [Click Here](https://github.com/QueenArzoo/DeleterRobot) \n\nFramework : [Pyrogram](docs.pyrogram.org) \n\nLanguage : [Python](www.python.org) \n\nDeveloper : [Hero](https://t.me/HEROGAMERS)"
 
     if Config.OWNER_ID != 0:
         if Config.OWNER_NAME:
@@ -37,7 +37,7 @@ class Data:
             raise SystemExit
 
     # Deploy Message
-    DEPLOY = '**Wanna create your own such bot??** \n\nThis is simple and open source bot. \nJust click below on source code and tap on "Deploy to Heroku" to create your own bot. \n\nClick Here for [Source Code](https://github.com/MysteryBots/AnonBot)'
+    DEPLOY = '**Clone This Bot??** \n\nThis is simple and open source bot. \nJust click below on source code and tap on "Deploy to Heroku" to create your own bot. \n\nClick Here for [Source Code](https://github.com/QueenArzoo/DeleterRobot)'
 
     HELP = '**Need Help?** \n\nJust Add me in your group as admin with atleast "Delete Messages" permission and leave rest to me. '
 
@@ -51,6 +51,5 @@ class Data:
             InlineKeyboardButton("🎪 About 🎪", callback_data="about"),
         ],
         [InlineKeyboardButton("Create your own bot", callback_data="deploy")],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/MysteryBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MysteryBotsChat")],
+        [InlineKeyboardButton("🙋 Support Group ", url="https://t.me/LaylaSupport")],
     ]
